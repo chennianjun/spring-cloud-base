@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chennianjun/springcloudconfig
+          search-paths: repo
+          default-label: master
+          username: 459967475@qq.com
+          password: love1129.*
+server:
+  port: 8988
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
