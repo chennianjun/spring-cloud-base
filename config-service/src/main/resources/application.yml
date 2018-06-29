@@ -9,7 +9,7 @@ spring:
           search-paths: repo
           default-label: master
           username: 459967475@qq.com
-          password: love1129.*
+          password: ********
 server:
   port: 8988
 eureka:
